@@ -17,7 +17,7 @@ import {
 } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Visibility, VisibilityOff } from "@mui/icons-material";
-import bgpic from "../../assets/designlogin.jpg";
+// import bgpic from "../../assets/designlogin.jpg";
 import { LightPurpleButton } from "../../components/buttonStyles";
 import { registerUser } from "../../redux/userRelated/userHandle";
 import styled from "styled-components";
