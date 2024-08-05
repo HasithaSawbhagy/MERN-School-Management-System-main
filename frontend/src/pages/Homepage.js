@@ -29,10 +29,24 @@ const Homepage = () => {
             </StyledTitle>
             <StyledText>Western School Sri Lanka</StyledText>
             <StyledBox>
-              <StyledLink to="/choose">
+              <StyledLink to="/Studentlogin">
                 <LightPurpleButton variant="contained" fullWidth>
-                  Login
+                  Login As Student
                 </LightPurpleButton>
+              </StyledLink>
+              <StyledLink to="/Teacherlogin">
+                <Button
+                  variant="outlined"
+                  fullWidth
+                  sx={{
+                    mt: 2,
+                    mb: 3,
+                    color: "#7f56da",
+                    borderColor: "#7f56da",
+                  }}
+                >
+                  Login As Teacher
+                </Button>
               </StyledLink>
               <StyledText>
                 Don't have an account?{" "}
